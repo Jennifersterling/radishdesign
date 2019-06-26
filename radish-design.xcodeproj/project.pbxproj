@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18BD964B22C3F97100E3E047 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD964A22C3F97100E3E047 /* AppDelegate.swift */; };
+		18BD964D22C3F97100E3E047 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD964C22C3F97100E3E047 /* ViewController.swift */; };
+		18BD965022C3F97100E3E047 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BD964E22C3F97100E3E047 /* Main.storyboard */; };
+		18BD965322C3F97100E3E047 /* radish_design.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18BD965122C3F97100E3E047 /* radish_design.xcdatamodeld */; };
+		18BD965522C3F97200E3E047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18BD965422C3F97200E3E047 /* Assets.xcassets */; };
+		18BD965822C3F97200E3E047 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BD965622C3F97200E3E047 /* LaunchScreen.storyboard */; };
+		18BD966322C3F97200E3E047 /* radish_designTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD966222C3F97200E3E047 /* radish_designTests.swift */; };
+		18BD966E22C3F97200E3E047 /* radish_designUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD966D22C3F97200E3E047 /* radish_designUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18BD965F22C3F97200E3E047 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18BD963F22C3F97100E3E047 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18BD964622C3F97100E3E047;
+			remoteInfo = "radish-design";
+		};
+		18BD966A22C3F97200E3E047 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18BD963F22C3F97100E3E047 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18BD964622C3F97100E3E047;
+			remoteInfo = "radish-design";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18BD964722C3F97100E3E047 /* radish-design.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "radish-design.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BD964A22C3F97100E3E047 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18BD964C22C3F97100E3E047 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18BD964F22C3F97100E3E047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18BD965222C3F97100E3E047 /* radish_design.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = radish_design.xcdatamodel; sourceTree = "<group>"; };
+		18BD965422C3F97200E3E047 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18BD965722C3F97200E3E047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18BD965922C3F97200E3E047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BD965E22C3F97200E3E047 /* radish-designTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "radish-designTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BD966222C3F97200E3E047 /* radish_designTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = radish_designTests.swift; sourceTree = "<group>"; };
+		18BD966422C3F97200E3E047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BD966922C3F97200E3E047 /* radish-designUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "radish-designUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BD966D22C3F97200E3E047 /* radish_designUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = radish_designUITests.swift; sourceTree = "<group>"; };
+		18BD966F22C3F97200E3E047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18BD964422C3F97100E3E047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BD965B22C3F97200E3E047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BD966622C3F97200E3E047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18BD963E22C3F97100E3E047 = {
+			isa = PBXGroup;
+			children = (
+				18BD964922C3F97100E3E047 /* radish-design */,
+				18BD966122C3F97200E3E047 /* radish-designTests */,
+				18BD966C22C3F97200E3E047 /* radish-designUITests */,
+				18BD964822C3F97100E3E047 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18BD964822C3F97100E3E047 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18BD964722C3F97100E3E047 /* radish-design.app */,
+				18BD965E22C3F97200E3E047 /* radish-designTests.xctest */,
+				18BD966922C3F97200E3E047 /* radish-designUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18BD964922C3F97100E3E047 /* radish-design */ = {
+			isa = PBXGroup;
+			children = (
+				18BD964A22C3F97100E3E047 /* AppDelegate.swift */,
+				18BD964C22C3F97100E3E047 /* ViewController.swift */,
+				18BD964E22C3F97100E3E047 /* Main.storyboard */,
+				18BD965422C3F97200E3E047 /* Assets.xcassets */,
+				18BD965622C3F97200E3E047 /* LaunchScreen.storyboard */,
+				18BD965922C3F97200E3E047 /* Info.plist */,
+				18BD965122C3F97100E3E047 /* radish_design.xcdatamodeld */,
+			);
+			path = "radish-design";
+			sourceTree = "<group>";
+		};
+		18BD966122C3F97200E3E047 /* radish-designTests */ = {
+			isa = PBXGroup;
+			children = (
+				18BD966222C3F97200E3E047 /* radish_designTests.swift */,
+				18BD966422C3F97200E3E047 /* Info.plist */,
+			);
+			path = "radish-designTests";
+			sourceTree = "<group>";
+		};
+		18BD966C22C3F97200E3E047 /* radish-designUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18BD966D22C3F97200E3E047 /* radish_designUITests.swift */,
+				18BD966F22C3F97200E3E047 /* Info.plist */,
+			);
+			path = "radish-designUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18BD964622C3F97100E3E047 /* radish-design */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BD967222C3F97200E3E047 /* Build configuration list for PBXNativeTarget "radish-design" */;
+			buildPhases = (
+				18BD964322C3F97100E3E047 /* Sources */,
+				18BD964422C3F97100E3E047 /* Frameworks */,
+				18BD964522C3F97100E3E047 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "radish-design";
+			productName = "radish-design";
+			productReference = 18BD964722C3F97100E3E047 /* radish-design.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18BD965D22C3F97200E3E047 /* radish-designTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BD967522C3F97200E3E047 /* Build configuration list for PBXNativeTarget "radish-designTests" */;
+			buildPhases = (
+				18BD965A22C3F97200E3E047 /* Sources */,
+				18BD965B22C3F97200E3E047 /* Frameworks */,
+				18BD965C22C3F97200E3E047 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18BD966022C3F97200E3E047 /* PBXTargetDependency */,
+			);
+			name = "radish-designTests";
+			productName = "radish-designTests";
+			productReference = 18BD965E22C3F97200E3E047 /* radish-designTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18BD966822C3F97200E3E047 /* radish-designUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BD967822C3F97200E3E047 /* Build configuration list for PBXNativeTarget "radish-designUITests" */;
+			buildPhases = (
+				18BD966522C3F97200E3E047 /* Sources */,
+				18BD966622C3F97200E3E047 /* Frameworks */,
+				18BD966722C3F97200E3E047 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18BD966B22C3F97200E3E047 /* PBXTargetDependency */,
+			);
+			name = "radish-designUITests";
+			productName = "radish-designUITests";
+			productReference = 18BD966922C3F97200E3E047 /* radish-designUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18BD963F22C3F97100E3E047 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					18BD964622C3F97100E3E047 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					18BD965D22C3F97200E3E047 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 18BD964622C3F97100E3E047;
+					};
+					18BD966822C3F97200E3E047 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 18BD964622C3F97100E3E047;
+					};
+				};
+			};
+			buildConfigurationList = 18BD964222C3F97100E3E047 /* Build configuration list for PBXProject "radish-design" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18BD963E22C3F97100E3E047;
+			productRefGroup = 18BD964822C3F97100E3E047 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18BD964622C3F97100E3E047 /* radish-design */,
+				18BD965D22C3F97200E3E047 /* radish-designTests */,
+				18BD966822C3F97200E3E047 /* radish-designUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18BD964522C3F97100E3E047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BD965822C3F97200E3E047 /* LaunchScreen.storyboard in Resources */,
+				18BD965522C3F97200E3E047 /* Assets.xcassets in Resources */,
+				18BD965022C3F97100E3E047 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BD965C22C3F97200E3E047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BD966722C3F97200E3E047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18BD964322C3F97100E3E047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BD965322C3F97100E3E047 /* radish_design.xcdatamodeld in Sources */,
+				18BD964D22C3F97100E3E047 /* ViewController.swift in Sources */,
+				18BD964B22C3F97100E3E047 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BD965A22C3F97200E3E047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BD966322C3F97200E3E047 /* radish_designTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BD966522C3F97200E3E047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BD966E22C3F97200E3E047 /* radish_designUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18BD966022C3F97200E3E047 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18BD964622C3F97100E3E047 /* radish-design */;
+			targetProxy = 18BD965F22C3F97200E3E047 /* PBXContainerItemProxy */;
+		};
+		18BD966B22C3F97200E3E047 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18BD964622C3F97100E3E047 /* radish-design */;
+			targetProxy = 18BD966A22C3F97200E3E047 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18BD964E22C3F97100E3E047 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BD964F22C3F97100E3E047 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18BD965622C3F97200E3E047 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BD965722C3F97200E3E047 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18BD967022C3F97200E3E047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18BD967122C3F97200E3E047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18BD967322C3F97200E3E047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "radish-design/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JS.radish-design";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18BD967422C3F97200E3E047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "radish-design/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JS.radish-design";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18BD967622C3F97200E3E047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "radish-designTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JS.radish-designTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/radish-design.app/radish-design";
+			};
+			name = Debug;
+		};
+		18BD967722C3F97200E3E047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "radish-designTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JS.radish-designTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/radish-design.app/radish-design";
+			};
+			name = Release;
+		};
+		18BD967922C3F97200E3E047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "radish-designUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JS.radish-designUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "radish-design";
+			};
+			name = Debug;
+		};
+		18BD967A22C3F97200E3E047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "radish-designUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JS.radish-designUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "radish-design";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18BD964222C3F97100E3E047 /* Build configuration list for PBXProject "radish-design" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BD967022C3F97200E3E047 /* Debug */,
+				18BD967122C3F97200E3E047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BD967222C3F97200E3E047 /* Build configuration list for PBXNativeTarget "radish-design" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BD967322C3F97200E3E047 /* Debug */,
+				18BD967422C3F97200E3E047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BD967522C3F97200E3E047 /* Build configuration list for PBXNativeTarget "radish-designTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BD967622C3F97200E3E047 /* Debug */,
+				18BD967722C3F97200E3E047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BD967822C3F97200E3E047 /* Build configuration list for PBXNativeTarget "radish-designUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BD967922C3F97200E3E047 /* Debug */,
+				18BD967A22C3F97200E3E047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18BD965122C3F97100E3E047 /* radish_design.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18BD965222C3F97100E3E047 /* radish_design.xcdatamodel */,
+			);
+			currentVersion = 18BD965222C3F97100E3E047 /* radish_design.xcdatamodel */;
+			path = radish_design.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18BD963F22C3F97100E3E047 /* Project object */;
+}
